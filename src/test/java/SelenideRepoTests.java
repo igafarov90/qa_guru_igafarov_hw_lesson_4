@@ -11,8 +11,8 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideRepoTests {
 
     @BeforeAll static void beforeAll() {
-        Configuration.holdBrowserOpen=true;
         Configuration.baseUrl = "https://github.com/";
+        Configuration.browserSize = "1920x1080";
     }
     @Test
     void searchExampleCodeForJunit5(){
