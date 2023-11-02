@@ -10,7 +10,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideRepoTests {
 
-    @BeforeAll static void beforeAll() {
+    @BeforeAll
+    static void beforeAll() {
         Configuration.baseUrl = "https://github.com/";
         Configuration.browserSize = "1920x1080";
     }
