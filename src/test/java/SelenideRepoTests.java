@@ -13,7 +13,7 @@ public class SelenideRepoTests {
     @BeforeAll
     static void beforeAll() {
         Configuration.baseUrl = "https://github.com/";
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = "1900x1080";
     }
     @Test
     void searchExampleCodeForJunit5(){
